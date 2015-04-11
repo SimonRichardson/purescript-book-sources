@@ -641,7 +641,7 @@ X>     ```
 X> 
 X>     Render this L-system. _Note_: you will need to decrease the number of iterations of the production rules, since the size of the final sentence grows exponentially with the number of iterations.
 X> 
-X>     Now, notice the symmetry between `L` and `M` in the production rules. The two "move forward" instructions can be differentiated using a `Boolean` value using the following alphabet type:
+X>     Now, notice the symmetry between `F` and `M` in the production rules. The two "move forward" instructions can be differentiated using a `Boolean` value using the following alphabet type:
 X> 
 X>     ```haskell
 X>     data Alphabet = L | R | F Boolean
